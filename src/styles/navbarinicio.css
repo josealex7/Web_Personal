@@ -1,0 +1,101 @@
+body{
+    padding: 0%;
+    margin: 0;
+}
+
+.NavbarPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(18,102,143);
+    background: linear-gradient(0deg, rgba(84,53,210,1) 100%,rgba(18,102,143,1) 0%);
+    padding: 10px 0px;
+    border-bottom: 2px solid white;
+}
+
+.navLinks{
+    display: flex;
+    list-style: none;
+}
+
+.Links{
+    list-style: none;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Links:hover{
+    color: rgb(197, 197, 197);
+    text-decoration: underline;
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+
+.nav-links-mobile{
+    display: flex;
+    list-style: none;
+}
+
+@media only screen and (max-width: 800px){
+
+    .NavbarPrincipal{
+        padding: 42px 0px;
+        overflow-y: hidden;
+    }
+
+    .navLinks{
+        display: none;
+    }
+
+    .nav-links-mobile{
+        margin-top: 0px;
+        margin-left: -40px;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        list-style: none;
+        background: linear-gradient(0deg, rgb(84, 53, 210) 100%,rgba(18,102,143,1) 0%);
+        left: 0;
+        top: 0;
+        height: 100vh;
+        transition: all 0.5s ease-out;
+        width: 100%;
+        padding-top: 10px;
+        z-index: 100;
+        overflow-y: hidden;
+    }
+
+    .Links{
+        text-align: center;
+        width: 100%;
+        transition: all 0.5s ease;
+    }
+
+    .Links:hover{
+        color: white;
+        text-decoration: none;
+    }
+
+    .Links h6{
+        font-size: 40px;
+    }
+
+    .mobile-menu-icon{
+        display: block;
+        border: none;
+        background-color: rgba(250, 235, 215, 0);
+        outline: none;
+        top: 25px;
+        right: 25px;
+        z-index: 101;
+        position: absolute;
+    }
+
+    .mobile-fixed{
+        position: fixed;
+    }
+}
