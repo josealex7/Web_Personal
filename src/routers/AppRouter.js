@@ -18,10 +18,6 @@ export default function AppRouter() {
     <Router>
         <NavBarInicio/> 
             <Routes>
-                <Route path="/contact" element={
-                            <Contact/>
-                    } />
-
                 <Route path="/*" element={
                             <Home/>
                     }/>
