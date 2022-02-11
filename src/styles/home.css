@@ -49,7 +49,6 @@
     padding-bottom: 10px;
     padding-top: 20px;
     padding: 20px 0px 10px;
-
     text-align: center;
 }
 
@@ -79,6 +78,10 @@
 
 .ContenedorContactoHome{
     text-align: center;
+}
+
+.ContenedorContactoHome h3{
+    font-size: 36px;
 }
 
 .contenedorImagenesSkills img:hover{
@@ -222,6 +225,25 @@
         min-width: 270px;
         margin-bottom: 20px;
     }
+
+    
+    .divCertificaciones h3{
+        font-size: 36px;
+    }
+
+    .contenedorSkillTitulo h3{
+        font-size: 36px;
+    }
+    
+    .contenedorSkillTitulo h4{
+        font-size: 26px;
+    }
+
+    .Proyectos{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
 }
 
 @media only screen and (max-width: 400px){

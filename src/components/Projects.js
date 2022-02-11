@@ -7,9 +7,9 @@ const Projects = () => {
         <div>
             <div>
                 <div className='tituloProyectos'>
-                <Typography variant='h3'>Mis proyectos recientes</Typography>
-                <Typography variant='h5' sx={{mb:6  }}>Aquí hay algunos proyectos en los que 
-                he trabajado recientemente.</Typography>
+                    <Typography variant='h3'>Mis proyectos recientes</Typography>
+                    <Typography variant='h5' sx={{mb:6  }}>Aquí hay algunos proyectos en los que 
+                    he trabajado recientemente.</Typography>
                 </div>
                 <div className='ContenedorProyectos'>
                     <div className='proyectoIndividual colorBlueFondo'>

@@ -9,6 +9,8 @@
     text-align: center;
 }
 
+
+
 .colorBlueFondo{
     background: rgb(18,102,143);
     background: linear-gradient(0deg, rgba(18,102,143,1) 0%, rgba(84,53,210,1) 100%);
@@ -112,6 +114,11 @@
     .proyectoIndividualImg img{
         width: 95%;
         object-fit: cover;
+    }
+
+    .tituloProyectos h3{
+        font-size: 36px;
+        margin-bottom: 20px;
     }
 
     .contenedorBotonesImagenes{
