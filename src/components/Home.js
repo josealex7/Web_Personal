@@ -17,91 +17,79 @@ const Home = () => {
                             <Typewriter
                              onInit={(typewriter)=>{
                                 typewriter
-                                .typeString('Hola, soy Alexander Tavera')
+                                .typeString("Hi, I'm Alexander Tavera, Ruby on Rails Developer")
+                                
                                 .start()
                             }}
                             />
                         </label>
                     </Typography>
                     <Typography variant='h5' className='descripcionPerfil' sx={{mt:3}}>
-                        Soy desarrollador Front-end Jr, cuento con habilidades de resolución de problemas, capacidad de aprendizaje, trabajo en equipo, adaptabilidad a diferentes entornos de manera eficiente y gusto por los retos.
+                        As a Ruby on Rails developer, I specialize in developing scalable and high-quality web applications. I have experience working on various projects using Ruby on Rails, and I enjoy collaborating with other developers, designers, and business specialists to create innovative technological solutions. In addition to Ruby on Rails, I also have experience in other web development technologies, and I am always looking for ways to improve my skills and stay up-to-date with the latest trends.
+                    </Typography>
+                    <Typography variant='h5' className='descripcionPerfil' sx={{mt:3}}>
+                        If you're looking for a passionate and dedicated Ruby on Rails developer, don't hesitate to contact me! I'm excited to hear about new projects and collaboration opportunities.
                     </Typography>
                 </div>
             </div>
             <div className='contenedorSkills' id='miskill'>
                 <div className='contenedorSkillRelative'>
                     <div className='contenedorSkillTitulo'>
-                        <Typography variant='h3' sx={{mb:2}} className='bold'>Mis Skills</Typography>
+                        <Typography variant='h3' sx={{mb:2}} className='bold'>My Skills</Typography>
                         <Typography variant='h4'sx={{mb:2, mt:2}}>
-                            Estos son los lenguajes y tecnologías que manejo, de los
-                            cuales me interesa seguir aprendiendo.
+                            Languages and technologies I have experience with
                         </Typography>
                     </div>
                     <div className='contedorSkillImagenes'>
                         <div className='contenedorImagenesSkills'>
-                            <Typography variant='h5' className='colorBlue' sx={{mb:2, mt:2}}>Lenguajes y Frameworks</Typography>
-                            <img src='https://res.cloudinary.com/dxnn5sbsz/image/upload/v1643148553/javascript-icon-png-23_kgh9xf.png'/>
+                            <Typography variant='h5' className='colorBlue' sx={{mb:2, mt:2}}>Fullstack</Typography>
+                            <img src='https://res.cloudinary.com/dxnn5sbsz/image/upload/v1670297299/1_MtuURq-9Fe3MZM5IZqQgyw_pxzzkz.png'/>
+                            <img src='https://res.cloudinary.com/dxnn5sbsz/image/upload/v1682515899/api-rest_pzqyzr.png'/>
                             <img src='https://res.cloudinary.com/dxnn5sbsz/image/upload/v1643148114/7946470_nlwl4i.png'/>
-                            <img src='https://res.cloudinary.com/dxnn5sbsz/image/upload/v1643148310/redux-harmful_mervf5.png'/>
-                            <img src='https://res.cloudinary.com/dxnn5sbsz/image/upload/v1643149435/226777_vgjykh.png'/>
                         </div>
                         <div className='contenedorImagenesSkills'>
-                            <Typography variant='h5' className='colorBlue' sx={{mb:2, mt:2}}>Maquetado y estilos</Typography>
+                            <Typography variant='h5' className='colorBlue' sx={{mb:2, mt:2}}>Databases</Typography>
+                            <img src='https://res.cloudinary.com/dxnn5sbsz/image/upload/v1643149129/MySQL_mnnpzt.png'/>
+                            <img src='https://res.cloudinary.com/dxnn5sbsz/image/upload/v1682515577/Postgresql_elephant.svg_chuue7.png'/>
+                            <img src='https://res.cloudinary.com/dxnn5sbsz/image/upload/v1670297853/mongodb_ww4dks.png'/>
+                        </div>
+                        <div className='contenedorImagenesSkills'>
+                            <Typography variant='h5' className='colorBlue' sx={{mb:2, mt:2}}>Cloud native</Typography>
+                            <img src='https://res.cloudinary.com/dxnn5sbsz/image/upload/v1682516385/image-docker_hwgj45.png'/>
+                            <img src='https://res.cloudinary.com/dxnn5sbsz/image/upload/v1682516526/microservices_guaz0m.png'/>
+                            <img src='https://res.cloudinary.com/dxnn5sbsz/image/upload/v1682516326/AWS_Simple_Icons_AWS_Cloud.svg_awl9ak.png'/>
+                        </div>
+                        <div className='contenedorImagenesSkills'>
+                            <Typography variant='h5' className='colorBlue' sx={{mb:2, mt:2}}>Client side</Typography>
                             <img src='https://res.cloudinary.com/dxnn5sbsz/image/upload/v1643147777/IconoHtml_pkwr9y.png'/>
                             <img src='https://res.cloudinary.com/dxnn5sbsz/image/upload/v1643147845/732190_oosjww.png'/>
-                            <img src='https://res.cloudinary.com/dxnn5sbsz/image/upload/v1643147968/Bootstrap_logo.svg_clae9s.png'/>
-                            <img src='https://res.cloudinary.com/dxnn5sbsz/image/upload/v1643148407/material-ui_fyjtyg.png'/>
-                        </div>
-                        <div className='contenedorImagenesSkills'>
-                            <Typography variant='h5' className='colorBlue' sx={{mb:2, mt:2}}>Bases de datos</Typography>
-                            <img src='https://res.cloudinary.com/dxnn5sbsz/image/upload/v1643149129/MySQL_mnnpzt.png'/>
-                            <img src='https://res.cloudinary.com/dxnn5sbsz/image/upload/v1643148181/firebase_sjyp2k.png'/>
-                            <img src='https://res.cloudinary.com/dxnn5sbsz/image/upload/v1643149310/mariadb_xs2ftb.png'/>
-                        </div>
-                        <div className='contenedorImagenesSkills'>
-                            <Typography variant='h5' className='colorBlue' sx={{mb:2, mt:2}}>Otras Tecnologias</Typography>
-                            <img src='https://res.cloudinary.com/dtdopreaf/image/upload/v1644364492/logo_git_icon_fbd99p.png'/>
-                            <img src='https://res.cloudinary.com/dtdopreaf/image/upload/v1644364561/descarga_yijggs.png'/>
-                            <img src='https://res.cloudinary.com/dtdopreaf/image/upload/v1644364656/images_x7gfvv.png'/>
-                            <img src='https://res.cloudinary.com/dtdopreaf/image/upload/v1644364774/descarga_1_feut0i.png'/>
-
+                            <img src='https://res.cloudinary.com/dxnn5sbsz/image/upload/v1643148553/javascript-icon-png-23_kgh9xf.png'/>
                         </div>
                     </div>
                 </div>
             </div>
             <div className='divCertificaciones' id='misCertificaciones'>
-                <Typography variant='h3' sx={{mb:4, mt:2}} className='bold'>Mis Certificaciones</Typography>
+                <Typography variant='h3' sx={{mb:4, mt:2}} className='bold'>My certifications</Typography>
                 <div className='contenedorCertificaciones-Flex'>
                     <div className='Certificaciones'>
                         <div className='imgCertificacion'>
-                            <img src="https://res.cloudinary.com/dxnn5sbsz/image/upload/v1643149925/unnamed_lljjsa.png"/>
+                            <img src="https://res.cloudinary.com/dxnn5sbsz/image/upload/v1682517372/udemy-new-20212512_ghmo0d.jpg"/>
                         </div>
                         <div>
-                            <Typography variant='h5' sx={{ml:2, mt:1}} className='colorBlanco'>Responsive Web Design</Typography>
+                            <Typography variant='h5' sx={{ml:2, mt:1}} className='colorBlanco'>The Complete Ruby on Rails Developer Course</Typography>
                             <Typography variant='body1' sx={{ml:2}}>
-                                <a target="_blank" className='links' href="https://www.freecodecamp.org/certification/JoseAlex7/responsive-web-design">Ver credencial</a>
+                                <a target="_blank" className='links' href="https://www.udemy.com/certificate/UC-70d339d9-9fdf-4a6c-a6bc-4adfd66f8fb9/">To view credential</a>
                             </Typography>
                         </div>
                     </div>
                     <div className='Certificaciones'>
                         <div className='imgCertificacion'>
-                            <img src="https://res.cloudinary.com/dxnn5sbsz/image/upload/v1643149925/unnamed_lljjsa.png"/>
+                            <img src="https://res.cloudinary.com/dxnn5sbsz/image/upload/v1670298290/AWS-Certified-Cloud-Practitioner_badge.634f8a21af2e0e956ed8905a72366146ba22b74c_p83x7p.png"/>
                         </div>
                         <div>
-                            <Typography variant='h5' sx={{ml:2, mt:1}} className='colorBlanco'>JavaScript Algorithms and Data Structures</Typography>
-                            <Typography variant='body1' sx={{ml:2}} >
-                                <a target="_blank" className='links' href="https://www.freecodecamp.org/certification/JoseAlex7/javascript-algorithms-and-data-structures">Ver credencial</a>
-                            </Typography>
-                        </div>
-                    </div>
-                    <div className='Certificaciones'>
-                        <div className='imgCertificacion'>
-                            <img src="https://res.cloudinary.com/dxnn5sbsz/image/upload/v1643149925/unnamed_lljjsa.png"/>
-                        </div>
-                        <div>
-                            <Typography variant='h5' sx={{ml:2, mt:1}} className='colorBlanco'>Front End Development Libraries</Typography>
+                            <Typography variant='h5' sx={{ml:2, mt:1}} className='colorBlanco'>AWS Certified Cloud Practitioner</Typography>
                             <Typography variant='body1' sx={{ml:2}}>
-                                <a target="_blank" className='links' href="https://www.freecodecamp.org/certification/JoseAlex7/front-end-development-libraries">Ver credencial</a>
+                                <a target="_blank" className='links' href="https://www.credly.com/badges/beafc1fa-eee1-4be3-ba97-df3e0ac83973/linked_in?t=rkklaz">To view credential</a>
                             </Typography>
                         </div>
                     </div>
@@ -112,7 +100,18 @@ const Home = () => {
                         <div>
                             <Typography variant='h5' sx={{ml:2, mt:1}} className='colorBlanco'>Desarrollo Front-End en ReactJs</Typography>
                             <Typography variant='body1' sx={{ml:2}}>
-                                <a target="_blank" className='links' href="https://res.cloudinary.com/dtdopreaf/image/upload/v1644367121/20220202_CERTIFICADO_Jose_Alexander_Tavera_page-0001_newn6r.jpg">Ver credencial</a>
+                                <a target="_blank" className='links' href="https://res.cloudinary.com/dtdopreaf/image/upload/v1644367121/20220202_CERTIFICADO_Jose_Alexander_Tavera_page-0001_newn6r.jpg">To view credential</a>
+                            </Typography>
+                        </div>
+                    </div>
+                    <div className='Certificaciones'>
+                        <div className='imgCertificacion'>
+                            <img src="https://res.cloudinary.com/dxnn5sbsz/image/upload/v1670298404/University_of_Los_Andes_logo.svg_nvuknu.png"/>
+                        </div>
+                        <div>
+                            <Typography variant='h5' sx={{ml:2, mt:1}} className='colorBlanco'>Basic Concepts in the Cloud - AWS</Typography>
+                            <Typography variant='body1' sx={{ml:2}} >
+                                <a target="_blank" className='links' href="https://wallet.xertify.co/certificates/5A7A3D18A001">To view credential</a>
                             </Typography>
                         </div>
                     </div>

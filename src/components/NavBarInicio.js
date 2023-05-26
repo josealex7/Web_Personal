@@ -37,7 +37,7 @@ const NavBarInicio = () => {
                     <Typography variant='h6' sx={{mr:2, ml:2}}>Contactame</Typography>
                     </label>
                 </a>
-                <a className='Links' href="https://res.cloudinary.com/dtdopreaf/image/upload/v1644385288/Desarrollador_Front-End_HV_Alexander_l6xo9c.pdf" target="_blank">
+                <a className='Links' href="https://res.cloudinary.com/dxnn5sbsz/image/upload/v1685113181/Ruby_on_Rails_Developer_hv_ujg2rf.jpg" target="_blank">
                     <label>
                     <Typography variant='h6' sx={{mr:2, ml:2}}>Mi CV</Typography>
                     </label>

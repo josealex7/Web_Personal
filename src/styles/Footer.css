@@ -1,6 +1,6 @@
 .contenedorFooter{
     background: rgb(18,102,143);
-    background: linear-gradient(0deg, rgba(18,102,143,1) 0%, rgba(84,53,210,1) 100%);
+    background: linear-gradient(0deg,rgba(7,90,193,1)  0%, rgba(2,179,154,1)100%);
     padding: 60px 20px 20px;
     text-align: center;
     margin-top: 100px;
@@ -9,7 +9,7 @@
 .contenedorFrase{
     max-width: 400px;
     margin: 10px auto;
-    color: rgb(202, 202, 202);
+    color: rgb(0, 0, 0);
 }
 
 .frase{
